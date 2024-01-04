@@ -1,7 +1,7 @@
 class Ajax {
     post(url, callback) {
         let xhr = new XMLHttpRequest()
-        xhr.open('POST', getUrl(url))
+        xhr.open('POST', url)
         xhr.send()
 
         xhr.onreadystatechange = () => {

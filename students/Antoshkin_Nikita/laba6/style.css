@@ -1,0 +1,151 @@
+/* styles.css */
+
+/* Стили для body и основного контейнера */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image:url("img/cat-lover-pattern-background-design_53876-100662.png"); /* Цвет фона */
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px; /* Добавим внутренний отступ для контейнера */
+}
+
+/* Стили для карточки продукта */
+.card {
+  width: 540px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(123, 234, 151, 0.1);
+  margin-right: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #555;
+}
+.text1 {
+  color: #555;
+  font-size: 3em;
+}
+.text2 {
+  color: #555;
+  font-size: 2em;
+}
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #473f4b;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 15px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-primary:hover {
+  background-color: #ddbc74;
+}
+
+/* Стили для кнопки возврата */
+#back-button {
+  margin-top: -10px;
+}
+/* Общие стили для футтера */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+.header {
+background-color: #333;
+color: #fff;
+padding: 3px 0;
+text-align: center;
+}
+/* Стили для блока с контентом */
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header-content {
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+}
+/* Стили для логотипа */
+.footer-logo h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Стили для контактной информации */
+.footer-contact p {
+  margin: 5px 0;
+  
+}
+.top-name {
+margin-left: auto;
+margin-right: auto;
+}
+/* Стили для социальных ссылок */
+.footer-social a {
+  color: #fff;
+  text-decoration: none;
+  margin:  10px;
+}
+
+/* Стили для нижней части футтера */
+.footer-bottom {
+text-align: center;
+margin-top: 15px;
+  
+}
+.but-back {
+  left:1830px;
+  right: 100px;
+  top: 10px;
+}
+.bcard
+{
+background-color: #ddbc74;
+}
+
+.toast-body{
+background-color: #474646;
+}
+
+
+/* Дополнительные стили для ваших компонентов и элементов */
+/* Например: */
+/* .other-class { дополнительные стили } */
